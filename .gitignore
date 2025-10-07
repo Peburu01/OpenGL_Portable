@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+
+# External dependencies
+includes/
+
+# App Builds
+app/
+
+# Cache folders
+.ccache/
+.sccache/
+
+# VS Code
+.vscode/.cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Compile commands
+compile_commands.json

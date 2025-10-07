@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 Build and Run",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "preLaunchTask": "CMake Build",
+            "osx": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceFolder}/app/OpenGLProject.exe",
+                "MIMode": "gdb"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "gdb"
+            }
+        },
+        {
+            "name": "▶️ Run Only (No Build)",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "osx": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceFolder}/app/OpenGLProject.exe",
+                "MIMode": "gdb"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "gdb"
+            }
+        },
+        {
+            "name": "🐛 Debug (Build + Run)",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "preLaunchTask": "CMake Build",
+            "osx": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceFolder}/app/OpenGLProject.exe",
+                "MIMode": "gdb",
+                "miDebuggerPath": "gdb"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/app/OpenGLProject",
+                "MIMode": "gdb"
+            }
+        }
+    ]
+}
