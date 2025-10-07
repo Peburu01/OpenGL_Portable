@@ -1,13 +1,13 @@
 
-# 🚀 OpenGL Portable Template
+# 🚀 OpenGL Portable VSCode Template
 
-A clean, cross-platform **OpenGL C++ starter project** that runs instantly on **Windows, macOS, and Linux** — no manual setup or dependency headaches.
+A lightweight, cross-platform OpenGL C++ starter kit that works out of the box on Windows, macOS, and Linux using VS Code — no complex setup, no dependency mess, just open, build, and run.
 
 ---
 
 ## 📖 Getting Started
 
-**👉 [See detailed setup and build instructions →](INSTRUCTIONS.md)**
+**👉 [See detailed setup and build instructions →](Instructions.md)**
 
 ---
 
@@ -63,10 +63,10 @@ This template provides a complete, production-ready OpenGL development environme
 
 The project uses **CMake's FetchContent** to automatically download and compile dependencies at build time. This means:
 
-✅ No manual library installation
-✅ Same build process on all platforms
-✅ Dependencies compile with your project settings
-✅ No version conflicts or missing library errors
+* No manual library installation
+* Same build process on all platforms
+* Dependencies compile with your project settings
+* No version conflicts or missing library errors
 
 ### Platform-Specific Handling
 
@@ -102,10 +102,10 @@ Each platform has a dedicated setup script that installs:
 
 When you run the project, you get:
 
-🪟 **OpenGL Window** — 800x600 resizable window
-🎨 **Clear Color** — Cyan background (customizable)
-⌨️ **Input Ready** — GLFW handles keyboard/mouse events
-🔄 **Render Loop** — 60 FPS game loop structure
+* **OpenGL Window** — 800x600 resizable window
+* **Clear Color** — Cyan background (customizable)
+* **Input Ready** — GLFW handles keyboard/mouse events
+* **Render Loop** — 60 FPS game loop structure
 
 The starter code in `src/main.cpp` includes:
 * OpenGL context initialization
